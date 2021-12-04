@@ -1,0 +1,3 @@
+const note = notes.find(note => {
+    console.log(note.id, typeof note.id, id, typeof id, note.id === id)
+    return note.id === id
